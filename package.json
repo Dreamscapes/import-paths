@@ -1,7 +1,7 @@
 {
   "name": "import-paths",
   "description": "Make your local imports and requires relatively absolute!",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Robert Rossmann",
     "email": "rr.rossmann@me.com"
