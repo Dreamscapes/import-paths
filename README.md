@@ -13,7 +13,7 @@
 [![Documentation Status][inch-badge]][inch-url]
 ![Built with GNU Make][make-badge]
 
-> Make your local imports and requries pretty!
+> Make your local imports and requires relatively absolute!
 
 ## Description
 
