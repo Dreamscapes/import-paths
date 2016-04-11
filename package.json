@@ -1,0 +1,29 @@
+{
+  "name": "import-paths",
+  "description": "Make your local imports and requires relatively absolute!",
+  "version": "0.1.0",
+  "author": {
+    "name": "Robert Rossmann",
+    "email": "rr.rossmann@me.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dreamscapes/import-paths/issues"
+  },
+  "contributors": [],
+  "dependencies": {},
+  "devDependencies": {
+    "@strv/eslint-config-javascript": "^3.0.0",
+    "eslint": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "homepage": "https://github.com/dreamscapes/import-paths",
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "main": "lib/import-paths",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dreamscapes/import-paths.git"
+  }
+}
