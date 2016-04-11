@@ -7,3 +7,12 @@ cache:
   - node_modules
 script:
 - make lint
+deploy:
+  provider: npm
+  email: rr.rossmann@gmail.com
+  api_key:
+    secure: mGK8fal0QWVau2yFHgwHfD/K4VBsol69zaL6jHlQDszEn/MPTOo1GZDWCzNnUeX9Gb0TC8QBa0sSVSU4acygzQDYpwVdpC6zltEn7AUpCjOYK3G5V+O8WgO2ONRghv7m7uxeFfDVZD8QL9QZik8t6eFM+rYYHepDo/Rm5EqEQCkPe9PIPhlsXlnZ3Xw+8cDRPDcQ2K81IopByX6kem/Eqg37obWMEfo6kLi4/Tg9xChAAVOQsVQlphHwJ5kINOR+78rThwCDeVwVabdS7hxtDwFCSfHo+sRWAuG+4dhO3Uf9EW1IUKnFdKQpT49RJbUJJN36Tdv+uVlejOYL6Bvyt/xObjQI3iy0G+1nfJ1U7okFtp4fpprGNt1XVeElSCnrT7EAFftrl3ngNiGgyD29+x2WLvuKo3ukpQ7PZqeTHkJntUyjHk4TSzLnpsfOCTdAQybHeAt1kBM/jiuhEDH1PkWlKEUxMDMo27B71rPNbmNu5bXZUXYws8V4GFsPMwSvV/8bMokBGP6LYayzwiSFiL7sonKNzecx+wt+l3p9JycnZ4TvZdbZJnXLWHLl7rkUAak/9RnHYu1xBY7xqcWxadxA15g70IfQiLS87ROuV0MztGetsfmbbuqwmOhg5qWREqZwy+uwd5oTzPl0FLvE1188opjfPX9r4JqFzt3DtOA=
+  on:
+    tags: true
+    repo: Dreamscapes/import-paths
+    node: '5.10'
