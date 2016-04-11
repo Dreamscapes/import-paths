@@ -1,12 +1,17 @@
-[npm-badge]: https://badge.fury.io/js/nodestream.svg
-[npm-url]: https://npmjs.org/package/nodestream
-[travis-badge]: https://travis-ci.org/nodestream/nodestream.svg
-[travis-url]: https://travis-ci.org/nodestream/nodestream
-[inch-badge]: http://inch-ci.org/github/nodestream/nodestream.svg
-[inch-url]: http://inch-ci.org/github/nodestream/nodestream
+[npm-badge]: https://badge.fury.io/js/import-paths.svg
+[npm-url]: https://npmjs.org/package/import-paths
+[travis-badge]: https://travis-ci.org/Dreamscapes/import-paths.svg
+[travis-url]: https://travis-ci.org/Dreamscapes/import-paths
+[inch-badge]: http://inch-ci.org/github/Dreamscapes/import-paths.svg
+[inch-url]: http://inch-ci.org/github/Dreamscapes/import-paths
 [make-badge]: https://img.shields.io/badge/built%20with-GNU%20Make-brightgreen.svg
 
 # import-paths
+
+[![NPM Version][npm-badge]][npm-url]
+[![Build Status][travis-badge]][travis-url]
+[![Documentation Status][inch-badge]][inch-url]
+![Built with GNU Make][make-badge]
 
 > Make your local imports and requries pretty!
 
